@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>net.fluance.commons</groupId>
+		<artifactId>fluance-commons</artifactId>
+		<version>1.9.1-RELEASE</version>
+		<relativePath>../../pom.xml</relativePath>
+	</parent>
+	<artifactId>fluance-commons-net</artifactId>
+
+	<properties>
+		<httpcomponents.version>4.5</httpcomponents.version>
+		<commonscsv.version>1.1</commonscsv.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>${httpcomponents.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-csv</artifactId>
+			<version>${commonscsv.version}</version>
+		</dependency>
+	</dependencies>
+
+</project>
