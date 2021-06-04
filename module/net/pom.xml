@@ -10,7 +10,7 @@
 	<artifactId>fluance-commons-net</artifactId>
 
 	<properties>
-		<httpcomponents.version>4.5</httpcomponents.version>
+		<httpcomponents.version>4.5.13</httpcomponents.version>
 		<commonscsv.version>1.1</commonscsv.version>
 	</properties>
 
